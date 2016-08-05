@@ -1,0 +1,49 @@
+
+homeassistant:
+  name: Home
+  latitude: 49.018742
+  longitude: 21.221933
+  elevation: 365
+  temperature_unit: C
+  time_zone: Europe/Bratislava
+  customize: !include_dir_merge_named customized
+
+group: !include groups.yaml
+
+http:
+  api_password: !secret http_password
+
+frontend:
+
+discovery:
+
+updater:
+
+conversation:
+
+history:
+
+logbook:
+
+sun:
+
+automation: !include_dir_merge_list automation
+
+script: !include scripts.yaml
+
+mqtt: !include mqtt.yaml
+
+sensor: !include sensor.yaml
+
+nest: !include nest.yaml
+
+thermostat:
+  platform: nest
+
+binary_sensor: !include binary_sensor.yaml
+
+switch: !include switch.yaml
+
+device_tracker: !include device_tracker.yaml
+
+camera: !include outside_camera.yaml

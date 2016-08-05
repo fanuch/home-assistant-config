@@ -1,0 +1,98 @@
+
+pc:
+  name: PC
+  mac: 90:1B:0E:13:37:36
+  picture: 
+  track: yes
+  hide_if_away: no
+
+home_ap:
+  name: Home AP
+  mac: E8:DE:27:C3:E1:5E
+  picture: 
+  track: no
+  hide_if_away: no
+
+laptop:
+  name: Laptop
+  mac: E0:CA:94:CB:3A:ED
+  picture: 
+  track: yes
+  hide_if_away: no
+
+office_ap:
+  name: Office AP
+  mac: C0:4A:00:FD:F8:D8
+  picture: 
+  track: no
+  hide_if_away: no
+
+router:
+  name: router
+  mac: E4:8D:8C:6A:0F:65
+  picture: 
+  track: no
+  hide_if_away: no
+
+media_server:
+  name: Media server
+  mac: B8:27:EB:27:13:8F
+  picture: 
+  track: yes
+  hide_if_away: no
+
+nest:
+  name: Nest
+  mac: 18:B4:30:2C:06:CA
+  picture: 
+  track: no
+  hide_if_away: no
+
+tablet:
+  name: Tablet
+  mac: 34:AA:8B:10:C8:48
+  picture: 
+  track: yes
+  hide_if_away: no
+
+nemo:
+  name: Nemo
+  mac: F8:DB:7F:8F:66:6E
+  picture: 
+  track: yes
+  hide_if_away: no
+
+tv:
+  name: TV
+  mac: 84:A4:66:C1:E0:10
+  picture: 
+  track: yes
+  hide_if_away: no
+
+wewe:
+  name: wewe
+  mac: 90:21:55:EF:B0:3E
+  picture: 
+  track: yes
+  hide_if_away: no
+
+kindle:
+  name: kindle
+  mac: 28:EF:01:04:C8:99
+  picture: 
+  track: no
+  hide_if_away: no
+
+printer:
+  name: Printer
+  mac: 2C:33:7A:5F:46:0C
+  picture: 
+  track: yes
+  hide_if_away: no
+
+raspberry_1:
+  name: Raspberry 1
+  mac: B8:27:EB:28:A7:E5
+  picture: 
+  track: no
+  hide_if_away: no

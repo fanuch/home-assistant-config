@@ -1,0 +1,3 @@
+username: !secret nest_name
+password: !secret nest_password
+

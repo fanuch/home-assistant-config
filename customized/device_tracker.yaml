@@ -1,0 +1,12 @@
+device_tracker.pc:
+  icon: mdi:desktop-tower
+device_tracker.laptop:
+  icon: mdi:laptop-windows
+device_tracker.media_server:
+  icon: mdi:movie
+device_tracker.tablet:
+  icon: mdi:tablet-android
+device_tracker.tv:
+  icon: mdi:television
+device_tracker.printer:
+  icon: mdi:printer

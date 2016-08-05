@@ -1,0 +1,32 @@
+- platform: yr
+- platform: nest
+  monitored_conditions:
+    - 'humidity'
+    - 'weather_temperature'
+    - 'weather_humidity'
+    - 'weather_condition'
+    - 'wind_speed'
+    - 'wind_direction'
+
+- platform: mqtt
+  state_topic: "office/temperature"
+  name: "Office temperature"
+  unit_of_measurement: "°C"
+  value_template: '{{ value | round(0) }}'
+
+- platform: mqtt
+  state_topic: "office/humidity"
+  name: "Office humidity"
+  unit_of_measurement: "%"
+  value_template: '{{ value | round(0) }}'
+
+- platform: speedtest
+  minute: 30
+  hour:
+    - 6
+    - 12
+    - 18
+  monitored_conditions:
+    - ping
+    - download
+    - upload

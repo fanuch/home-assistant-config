@@ -1,0 +1,7 @@
+- platform: mqtt
+  state_topic: "office/motion"
+  name: "Presence"
+  qos: 1
+  payload_on: "True"
+  payload_off: "False"
+  sensor_class: motion

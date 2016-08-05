@@ -1,0 +1,6 @@
+#sensor.office_humidity:
+#  friendly_name: Humidity
+#sensor.office_temperature:
+#  friendly_name: Temperature
+binary_sensor.presence:
+  icon: mdi:human

@@ -1,0 +1,4 @@
+sensor.hallway_humidity:
+  friendly_name: 'Humudity'
+sensor.hallway_temperature:
+  friendly_name: 'Temperature'

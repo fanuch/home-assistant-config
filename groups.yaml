@@ -1,0 +1,20 @@
+tracking:
+  name: What's connected
+  entities:
+    - device_tracker.laptop
+    - device_tracker.media_server
+    - device_tracker.tablet
+    - device_tracker.tv
+    - device_tracker.printer
+home:
+  name: Home
+  entities:
+    - sensor.hallway_humidity
+    - thermostat.hallway
+office:
+  name: Office
+  entities:
+    - sensor.office_humidity
+    - sensor.office_temperature
+    - binary_sensor.presence
+    - device_tracker.pc

@@ -1,0 +1,6 @@
+platform: mjpeg
+mjpeg_url: http://92.245.6.97:1574/full3.mjpg
+name: Outside cam
+username: !secret outside_cam_name
+password: !secret outside_cam_password
+
