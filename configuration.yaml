@@ -37,8 +37,7 @@ sensor: !include sensor.yaml
 
 nest: !include nest.yaml
 
-thermostat:
-  platform: nest
+thermostat: !include thermostat.yaml
 
 binary_sensor: !include binary_sensor.yaml
 
