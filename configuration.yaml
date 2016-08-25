@@ -4,7 +4,7 @@ homeassistant:
   latitude: 49.018742
   longitude: 21.221933
   elevation: 365
-  temperature_unit: C
+  unit_system: metric
   time_zone: Europe/Bratislava
   customize: !include_dir_merge_named customized
 
