@@ -27,22 +27,18 @@ logbook:
 
 sun:
 
-automation: !include_dir_merge_list automation
-
-script: !include scripts.yaml
-
 mqtt: !include mqtt.yaml
 
 sensor: !include sensor.yaml
 
 nest: !include nest.yaml
 
-thermostat: !include thermostat.yaml
+climate: !include climate.yaml
 
 binary_sensor: !include binary_sensor.yaml
-
-switch: !include switch.yaml
 
 device_tracker: !include device_tracker.yaml
 
 camera: !include outside_camera.yaml
+
+media_player: !include media_player.yaml
