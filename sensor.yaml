@@ -12,12 +12,18 @@
   state_topic: "office/temperature"
   name: "Office temperature"
   unit_of_measurement: "°C"
-  value_template: '{{ value | round(0) }}'
+  value_template: '{{ value | round(1) }}'
 
 - platform: mqtt
   state_topic: "office/humidity"
   name: "Office humidity"
   unit_of_measurement: "%"
+  value_template: '{{ value | round(1) }}'
+
+- platform: mqtt
+  state_topic: "office/lightIntensity"
+  name: "Office light"
+  unit_of_measurement: c
   value_template: '{{ value | round(0) }}'
 
 - platform: speedtest

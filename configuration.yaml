@@ -42,3 +42,5 @@ device_tracker: !include device_tracker.yaml
 camera: !include outside_camera.yaml
 
 media_player: !include media_player.yaml
+
+mysensors: !include mysensors.yaml

@@ -16,5 +16,6 @@ office:
   entities:
     - sensor.office_humidity
     - sensor.office_temperature
+    - sensor.office_light
     - binary_sensor.presence
     - device_tracker.pc

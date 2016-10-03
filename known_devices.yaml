@@ -55,11 +55,11 @@ tablet:
   track: yes
   hide_if_away: no
 
-nemo:
-  name: Nemo
+wildfire:
+  name: wildfire
   mac: F8:DB:7F:8F:66:6E
   picture: 
-  track: yes
+  track: no
   hide_if_away: no
 
 tv:
@@ -95,4 +95,11 @@ raspberry_1:
   mac: B8:27:EB:28:A7:E5
   picture: 
   track: no
+  hide_if_away: no
+
+nemo:
+  name: Nemo
+  mac: 80:57:19:26:88:F4
+  picture: 
+  track: yes
   hide_if_away: no

@@ -1,0 +1,7 @@
+gateways:
+  - device: '/dev/ttyAMA0'
+    persistence_file: '/home/hass/.homeassistant/mysensors.json'
+    baud_rate: 38400
+debug: true
+persistence: true
+version: '2.0'
