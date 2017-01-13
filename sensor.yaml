@@ -2,11 +2,6 @@
 - platform: nest
   monitored_conditions:
     - 'humidity'
-    - 'weather_temperature'
-    - 'weather_humidity'
-    - 'weather_condition'
-    - 'wind_speed'
-    - 'wind_direction'
 
 - platform: mqtt
   state_topic: "office/temperature"

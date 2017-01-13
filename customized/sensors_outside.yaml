@@ -1,12 +1,2 @@
-sensor.hallway_condition:
-  friendly_name: 'Nest'
-sensor.hallway_direction:
-  friendly_name: 'Wind'
-sensor.hallway_humidity_2:
-  friendly_name: 'Humidity'
-sensor.hallway_kph:
-  friendly_name: 'Pressure'
-sensor.hallway_temperature:
-  friendly_name: 'Temperature'
 sensor.yr_symbol:
   friendly_name: 'Forecast'

@@ -103,3 +103,31 @@ nemo:
   picture: 
   track: yes
   hide_if_away: no
+
+980d2e387ab2:
+  name: 980d2e387ab2
+  mac: 98:0D:2E:38:7A:B2
+  picture: 
+  track: yes
+  hide_if_away: yes
+
+84b541106be2:
+  name: 84b541106be2
+  mac: 84:B5:41:10:6B:E2
+  picture: 
+  track: yes
+  hide_if_away: yes
+
+ac5f3e4c0621:
+  name: ac5f3e4c0621
+  mac: AC:5F:3E:4C:06:21
+  picture: 
+  track: yes
+  hide_if_away: yes
+
+a039f76427d2:
+  name: a039f76427d2
+  mac: A0:39:F7:64:27:D2
+  picture: 
+  track: yes
+  hide_if_away: yes

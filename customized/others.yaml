@@ -1,3 +1,2 @@
-thermostat.hallway:
+climate.hallway:
   friendly_name: 'Thermostat'
-

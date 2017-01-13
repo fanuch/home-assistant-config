@@ -5,3 +5,8 @@
   payload_on: "True"
   payload_off: "False"
   sensor_class: motion
+- platform: nest
+  monitored_conditions:
+    - 'is_using_emergency_heat'
+    - 'has_leaf'
+    - 'online'
